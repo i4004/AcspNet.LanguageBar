@@ -5,7 +5,7 @@ AcspNet.LanguageBar
 
 Status
 ===
- .NET (4.5) .... Mono (3.4.0)
+ .NET (4.5) .... Mono (3.6.0)
 
 [![Build status](https://ci.appveyor.com/api/projects/status/bauvg7g0rkiw6exh/branch/master)](https://ci.appveyor.com/project/i4004/acspnet-languagebar/branch/master)
 [![Travis build status](https://travis-ci.org/i4004/AcspNet.LanguageBar.png?branch=master)](https://travis-ci.org/i4004/AcspNet.LanguageBar)

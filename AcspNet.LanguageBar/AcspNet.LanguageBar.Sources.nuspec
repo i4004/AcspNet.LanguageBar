@@ -3,14 +3,14 @@
 	<metadata>
 		<id>AcspNet.LanguageBar</id>
 		<version>$version$</version>
-		<title>$version$</title>
-		<authors>$author$</authors>
-		<owners>$author$</owners>
+		<title>AcspNet.LanguageBar</title>
+		<authors>Alexander Krylkov</authors>
+		<owners>Alexander Krylkov</owners>
 		<projectUrl>https://github.com/i4004/AcspNet.LanguageBar</projectUrl>
 		<iconUrl>https://raw.github.com/i4004/AcspNet/master/Images/Icon.png</iconUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<description>$description$</description>
-		<summary>$description$</summary>
+		<description>AcspNet language bar control.</description>
+		<summary>AcspNet language bar control.</summary>
 		<releaseNotes></releaseNotes>
 		<copyright>Licensed under LGPL</copyright>
 		<language>en-US</language>

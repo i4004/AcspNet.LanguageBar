@@ -1,5 +1,3 @@
-using System.Threading.Tasks;
-using AcspNet.Attributes;
 using AcspNet.LanguageBar.Views;
 using AcspNet.Responses;
 
@@ -8,17 +6,16 @@ namespace AcspNet.LanguageBar.Controllers
 	/// <summary>
 	/// Language bar control
 	/// </summary>
-	[Priority(-2)]
-	public class LanguageBar : AsyncController
+	public class LanguageBar : Controller
 	{
 		/// <summary>
 		/// Invokes the executable extension.
 		/// </summary>
-		public async override Task<ControllerResponse> Invoke()
+		public override ControllerResponse Invoke()
 		{
-			var languagesXml = FileReader.LoadXDocument("Languages.xml");
+			var languagesXml = FileReader.LoadXDocument("App_Packages/AcspNet.LanguageBar/Languages.xml");
 
-			return new InlineTpl("LanguageBar", await GetView<LanguageBarView>().Get(languagesXml));
+			return new InlineTpl("LanguageBar", GetView<LanguageBarView>().Get(languagesXml));
 		}
 	}
 }

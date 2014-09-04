@@ -1,5 +1,4 @@
 ﻿using System.Linq;
-using System.Threading.Tasks;
 using System.Xml.Linq;
 using Simplify.Templates;
 
@@ -7,11 +6,11 @@ namespace AcspNet.LanguageBar.Views
 {
 	public class LanguageBarView : View
 	{
-		public async Task<ITemplate> Get(XDocument languages)
+		public ITemplate Get(XDocument languages)
 		{
 			var data = "";
 
-			var tpl = await TemplateFactory.LoadAsync("App_Packages/AcspNet.LanguageBar/LanguageBar");
+			var tpl = TemplateFactory.Load("App_Packages/AcspNet.LanguageBar/LanguageBar");
 
 			if (languages != null && languages.Root != null)
 				foreach (var item in from r in languages.Root.Elements("item") select r)

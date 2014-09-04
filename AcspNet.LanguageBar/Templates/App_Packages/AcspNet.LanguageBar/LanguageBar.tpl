@@ -5,7 +5,7 @@
 	}
 </script>
 
-<form id="LanguageBar" action="{~}/?act=changeLanguage" method="post">
+<form id="LanguageBar" action="{~}/changeLanguage" method="post">
 	<select name="Language" onchange="ChangeLanguage();">
 		{LanguagesList}
 	</select>

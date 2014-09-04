@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+	<metadata>
+		<id>$id$</id>
+		<version>$version$</version>
+		<title>$id$</title>
+		<authors>$author$</authors>
+		<owners>$author$</owners>
+		<projectUrl>https://github.com/i4004/AcspNet.LanguageBar</projectUrl>
+		<iconUrl>https://raw.github.com/i4004/AcspNet/master/Images/Icon.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>$description$</description>
+		<summary>$description$</summary>
+		<releaseNotes></releaseNotes>
+		<copyright>Licensed under LGPL</copyright>
+		<language>en-US</language>
+		<tags>ACSP.NET</tags>
+		<frameworkAssemblies>
+			<frameworkAssembly assemblyName="System.Xml" />
+			<frameworkAssembly assemblyName="System.Xml.Linq" />
+		</frameworkAssemblies>
+	</metadata>
+	<files>
+		<file src="App_Data/App_Packages/AcspNet.LanguageBar/Languages.en.xml" target="content/App_Data/App_Packages/AcspNet.LanguageBar/Languages.en.xml" />
+		<file src="Controllers/LanguageBar.cs" target="content/Controllers/App_Packages/AcspNet.LanguageBar/LanguageBar.cs" />
+		<file src="Controllers/LanguageChanger.cs" target="content/Controllers/App_Packages/AcspNet.LanguageBar/LanguageChanger.cs" />
+		<file src="Templates/App_Packages/AcspNet.LanguageBar/LanguageBar.tpl" target="content/Templates/App_Packages/AcspNet.LanguageBar/LanguageBar.tpl" />
+		<file src="Views/LanguageBarView.cs" target="content/Views/App_Packages/AcspNet.LanguageBar/LanguageBarView.cs" />
+	</files>
+</package>

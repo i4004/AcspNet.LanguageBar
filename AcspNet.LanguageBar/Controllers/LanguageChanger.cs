@@ -1,4 +1,6 @@
 using AcspNet.Attributes;
+using AcspNet.Modules;
+using AcspNet.Responses;
 
 namespace AcspNet.LanguageBar.Controllers
 {
@@ -12,14 +14,14 @@ namespace AcspNet.LanguageBar.Controllers
 		/// <summary>
 		/// Invokes the executable extension.
 		/// </summary>
-		public override IControllerResponse Invoke()
+		public override ControllerResponse Invoke()
 		{
 			var language = !string.IsNullOrEmpty(Context.Form["Language"]) ? Context.Form["Language"] : Context.Query["lang"];
 
 			if (language != null)
 				LanguageManager.SetCookieLanguage(language);
 
-			return new Navigate(NavigateType.ToPreviousPage);
+			return new Redirect(RedirectionType.PreviousPage);
 		}
 	}
 }

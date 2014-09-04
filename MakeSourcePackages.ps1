@@ -4,7 +4,7 @@ $version = [System.Diagnostics.FileVersionInfo]::GetVersionInfo("$PSScriptRoot/A
 
 # Packing source packages
 
-src\.nuget\NuGet.exe pack AcspNet.LanguageBar/AcspNet.LanguageBar.Sources.nuspec -Version $version
+.nuget\NuGet.exe pack AcspNet.LanguageBar/AcspNet.LanguageBar.Sources.nuspec -Version $version
 
 # Publishing to Appveyor artifacts
 

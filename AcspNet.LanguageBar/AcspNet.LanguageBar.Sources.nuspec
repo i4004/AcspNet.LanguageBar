@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
 	<metadata>
-		<id>AcspNet.LanguageBar</id>
+		<id>AcspNet.LanguageBar.Sources</id>
 		<version>$version$</version>
-		<title>AcspNet.LanguageBar</title>
+		<title>AcspNet.LanguageBar.Sources</title>
 		<authors>Alexander Krylkov</authors>
 		<owners>Alexander Krylkov</owners>
 		<projectUrl>https://github.com/i4004/AcspNet.LanguageBar</projectUrl>

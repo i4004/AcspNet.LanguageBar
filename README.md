@@ -1,7 +1,7 @@
 AcspNet.LanguageBar
 ===================
 
-[AcspNet](https://github.com/i4004/AcspNet) language bar control
+[AcspNet](https://github.com/i4004/AcspNet) web-framework language bar control
 
 ## Usage
 

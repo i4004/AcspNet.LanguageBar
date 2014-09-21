@@ -9,8 +9,9 @@ namespace AcspNet.LanguageBar.Controllers
 	public class LanguageBar : Controller
 	{
 		/// <summary>
-		/// Invokes the executable extension.
+		/// Invokes the controller.
 		/// </summary>
+		/// <returns></returns>
 		public override ControllerResponse Invoke()
 		{
 			var languagesXml = FileReader.LoadXDocument("App_Packages/AcspNet.LanguageBar/Languages.xml");

@@ -12,8 +12,9 @@ namespace AcspNet.LanguageBar.Controllers
 	public class LanguageChanger : Controller
 	{
 		/// <summary>
-		/// Invokes the executable extension.
+		/// Invokes the controller.
 		/// </summary>
+		/// <returns></returns>
 		public override ControllerResponse Invoke()
 		{
 			var language = !string.IsNullOrEmpty(Context.Form["Language"]) ? Context.Form["Language"] : Context.Query["lang"];
